@@ -27,6 +27,10 @@ function AppCore::create( %this )
     exec("./scripts/defaultPreferences.cs");
     exec("./scripts/canvas.cs");
     exec("./scripts/openal.cs");
+
+    // Generates a Schema file for the project
+    //generateTamlSchema();
+    //quit();
     
     // Initialize the canvas
     initializeCanvas("Torque 2D");
