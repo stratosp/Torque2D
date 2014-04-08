@@ -33,7 +33,7 @@ function AppCore::create( %this )
     //quit();
     
     // Initialize the canvas
-    initializeCanvas("Torque 2D");
+    initializeCanvas("Torque 2D Stratos");
     
     // Set the canvas color
     Canvas.BackgroundColor = "CornflowerBlue";
